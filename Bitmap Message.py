@@ -49,7 +49,7 @@ for line in bitmap.splitlines():
         else:
             # Print a character from the message:
             print(message[i % len(message)], end='')
-    # print() # print a new line
+    print() # print a new line
 
 # Exploring the program
 # What happens if the player enters a blank string for the message?
